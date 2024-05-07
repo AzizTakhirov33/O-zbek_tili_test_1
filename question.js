@@ -438,7 +438,7 @@ const quiz = [
             'De- ngiz,mono-grafiya',
             'E-shikdan, a-badiy',
             'Si-ngil,matba-a'],
-        answer:1
+        answer:2
     },
     {
         q:'Qiyosiy daraja shakli qaysi qoshimcha yordamida yasaladi?',
@@ -465,7 +465,7 @@ const quiz = [
             'Mehribon,sodda',
             'Katta, kichik',
             'Shirin,mazali'],
-        answer:3
+        answer:2
     },
     {
         q:'Shakl korinishni bildiruvchi sifatlarni toping?',
@@ -492,7 +492,7 @@ const quiz = [
             'Firma',
             'Monopoliya',
             'Aksiya'],
-        answer:2
+        answer:0
     },
     {
         q:'Ko’plik qo’shimchalarini aniqlang?',
@@ -510,7 +510,7 @@ const quiz = [
             'Bilmay',
             'Ko’rmay',
             'O’lchamay'],
-        answer:1
+        answer:0
     },
     {
         q:'Chetdan  o’zlashgan so’zlarda ikki undosh kelsa,ular keyingi satrga qay  tartibda ko’chiriladi?',
@@ -528,7 +528,7 @@ const quiz = [
             'Прошу извинения',
             'Будь осторожен',
             'Осторожно'],
-        answer:2
+        answer:0
     },
     {
         q:'“Xamsa” asari ketma-ketlikda to‘g’ri berilgan qatorni toping.',
@@ -555,7 +555,7 @@ const quiz = [
             'Xalq,Yangiyo’l, uy',
             'Deraza,odam,shahar',
             'Zuhra,yer,Oy'],
-        answer:3
+        answer:2
     },
     {
         q:'Qaysi tillar o’zbek tili shakilanishiga asos bo’lgan?',
@@ -573,7 +573,7 @@ const quiz = [
             'Kichikgina, bukkan',
             'To‘kgani, ekkin',
             'Zerikguncha, ko‘nikkach'],
-        answer:3
+        answer:0
     },
     {
         q:'Bosh harflar imlosiga ko’ra  to’g’ri yozilgan javobni toping?',
@@ -582,7 +582,7 @@ const quiz = [
             'O’rta osiyo,Yangiyo’l',
             'Birlashgan millatlar tashkiloti',
             'Shimoliy Kavkaz, Markaziy Osiyo'],
-        answer:2
+        answer:3
     },
     {
         q:'Quyidagi hikmat muallifini toping: Onalar oyog‘i ostidadur Ravzayi jannatu jinon bog‘i. Ravza bog‘i visolin istar esang, Bo‘l onaning oyog‘in tuprog‘i. ',
