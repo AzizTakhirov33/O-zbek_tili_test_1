@@ -4,22 +4,22 @@
 
 const quiz = [
     {
-        q:'Qanday? qanaqa? qaysi? so‘roqlariga javob bo‘ladigan so‘z turkumi…deyiladi.',
+        q:'1. Qanday? qanaqa? qaysi? so‘roqlariga javob bo‘ladigan so‘z turkumi…deyiladi.',
         options: ['Ot','Sifat','Olmosh','Fe’l'],
         answer:1
     },
     {
-        q:'Narsa, predmetning miqdorini bildirib, qancha? nechta?	so‘roqlariga javob bo‘ladigan so’z turkumi…deyiladi.',
+        q:'2. Narsa, predmetning miqdorini bildirib, qancha? nechta?	so‘roqlariga javob bo‘ladigan so’z turkumi…deyiladi.',
         options: ['Son','Sifat','Olmosh','Ot'],
         answer:0
     },
     {
-        q:'Bu kitob juda qiziq. Otni aniqlang.',
+        q:'3. Bu kitob juda qiziq. Otni aniqlang.',
         options: ['Bu','kitob','juda','qiziq'],
         answer:1
     },
     {
-        q:'Sodda gapni toping.',
+        q:'4. Sodda gapni toping.',
         options: [
             'Qo‘ng’iroq chalindi.',
             'Qo‘ng’iroq chalindi va dars boshlandi.',
@@ -28,22 +28,22 @@ const quiz = [
         answer:0
     },
     {
-        q:'Dam olish kunida talabalar muzeyga bordilar.Fe’lni aniqlang.',
+        q:'5. Dam olish kunida talabalar muzeyga bordilar.Fe’lni aniqlang.',
         options: ['dam olish kunida','talabalar','muzeyga','bordilar'],
         answer:3
     },
     {
-        q:'Bugun qor ko’p yog’di. Ravishni aniqlang.',
+        q:'6. Bugun qor ko’p yog’di. Ravishni aniqlang.',
         options: ['bugun, qor, yog’di','qor	 yog’di','ko’p, yog‘di','bugun, ko‘p'],
         answer:3
     },
     {
-        q:'Kishilik olmoshini aniqlang.',
+        q:'7. Kishilik olmoshini aniqlang.',
         options: ['Hamma','Siz','Kimning?','Allakim'],
         answer:1
     },
     {
-        q:'Bosh harflar imlosiga ko‘ra to‘g‘ri yozilgan so‘zlarni aniqlang.',
+        q:'8. Bosh harflar imlosiga ko‘ra to‘g‘ri yozilgan so‘zlarni aniqlang.',
         options: [
             'olma, anor, abdunosir',          'sadoqat, vafo, ishq',
             'Maftuna, Safiya, bexruz',
@@ -51,7 +51,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Antonim so’zlarni aniqlang.',
+        q:'9. Antonim so’zlarni aniqlang.',
         options: [
             'mehr-oqibat', 
             'opa-singil',
@@ -60,7 +60,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Sinonimlarni aniqlang.',
+        q:'10. Sinonimlarni aniqlang.',
         options: [
             'botir-qo‘rqmas', 
             'kun-tun',
@@ -69,7 +69,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Dugonalarimiz bilan tog’ga chiqdik. Qaysi gap bo’lagi tushirib qoldirilgan?',
+        q:'11. Dugonalarimiz bilan tog’ga chiqdik. Qaysi gap bo’lagi tushirib qoldirilgan?',
         options: [
             'to‘ldiruvchi', 
             'hol',
@@ -78,7 +78,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'So’roq olmoshlariga va narsa so’ziga alla- yoki –dir qo’shimchalarini qo’shish bilan hosil qilingan olmoshlar…',
+        q:'12. So’roq olmoshlariga va narsa so’ziga alla- yoki –dir qo’shimchalarini qo’shish bilan hosil qilingan olmoshlar…',
         options: [
             'So’roq ', 
             'Ko’rsatish',
@@ -87,7 +87,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Nil daryosi suvini o’lchash uchun nilometrni ixtiro qilgan o’zbek allomasi kim?',
+        q:'13. Nil daryosi suvini o’lchash uchun nilometrni ixtiro qilgan o’zbek allomasi kim?',
         options: [
             'Amir Temur', 
             'Imom Buxoriy',
@@ -96,7 +96,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Qaysi olmoshlar ishtirok etgan gaplarning kesimi inkor shaklda bo’ladi?',
+        q:'14. Qaysi olmoshlar ishtirok etgan gaplarning kesimi inkor shaklda bo’ladi?',
         options: [
             'Bo’lishiszlik', 
             'Ko’rsatish',
@@ -105,7 +105,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Yevropada “Alfraganus” nomi bilan mashxur bo’lgan o’zbek allomasi  kim?',
+        q:'15. Yevropada “Alfraganus” nomi bilan mashxur bo’lgan o’zbek allomasi  kim?',
         options: [
             'Muhammad ibn Kasir', 
             'Al-Xorazmiy',
@@ -114,7 +114,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Davlat idoralari tomonidan chiqariladigan qarorlar, qonunlar, nizomlar qaysi uslubda yoziladi?',
+        q:'16. Davlat idoralari tomonidan chiqariladigan qarorlar, qonunlar, nizomlar qaysi uslubda yoziladi?',
         options: [
             'Ilmiy', 
             'Badiiy',
@@ -123,7 +123,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'O’zbekiston Respublikasining yangi Konstiyutsiyasi qachondan kuchga kirdi?',
+        q:'17. O’zbekiston Respublikasining yangi Konstiyutsiyasi qachondan kuchga kirdi?',
         options: [
             '2023-yil, 3-maydan', 
             '2022-yil, 1-maydan',
@@ -132,7 +132,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Kim nayzani uzukdan o’tkaza olsa, o’sha g’olib bo’ladi. Ushbu gap tuzilishiga ko’ra qanday gap?',
+        q:'18. Kim nayzani uzukdan o’tkaza olsa, o’sha g’olib bo’ladi. Ushbu gap tuzilishiga ko’ra qanday gap?',
         options: [
             'Sodda gap', 
             'Qo‘shma gap',
@@ -141,7 +141,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Bu gullar  chiroyli. Ushbu gapda sifatning qanday ma’no turi qo‘llangan?',
+        q:'19. Bu gullar  chiroyli. Ushbu gapda sifatning qanday ma’no turi qo‘llangan?',
         options: [
             'Hajm-o‘lchov', 
             'Xil-xususiyat',
@@ -150,7 +150,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Ish-harakatning nomini bildirib, nima qildi? nima qilyapti? so‘roqlariga javob bo‘ladigan so‘z turkumi…deyiladi.',
+        q:'20. Ish-harakatning nomini bildirib, nima qildi? nima qilyapti? so‘roqlariga javob bo‘ladigan so‘z turkumi…deyiladi.',
         options: [
             'ot', 
             'sifat',
@@ -159,7 +159,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Quyidagi gapda ajratilgan so`z to`g`ri izohlangan javobni belgilang. Bolalar, yaxshi o‘qing.',
+        q:'21. Quyidagi gapda ajratilgan so`z to`g`ri izohlangan javobni belgilang. Bolalar, yaxshi o‘qing.',
         options: [
             'Undalma', 
             'Sifat',
@@ -168,7 +168,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Siz, albatta, maqsadingizga erishasiz. Gapda modal so‘zning qanday ma’nosi ifodalangan?',
+        q:'22. Siz, albatta, maqsadingizga erishasiz. Gapda modal so‘zning qanday ma’nosi ifodalangan?',
         options: [
             'Gumon', 
             'Tasdiq',
@@ -177,7 +177,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Quyida berilgan gapda ajratilgan so`z qanday so`z? Avvalo, niyatni to‘g‘ri qilaylik.',
+        q:'23. Quyida berilgan gapda ajratilgan so`z qanday so`z? Avvalo, niyatni to‘g‘ri qilaylik.',
         options: [
             'Taqlid so‘z', 
             'Undov so‘z',
@@ -186,7 +186,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Gumon olmoshi ifodalangan gapni aniqlang.',
+        q:'24. Gumon olmoshi ifodalangan gapni aniqlang.',
         options: [
             'Bugun biz Samarqandga boramiz.', 
             'Hamma xursand-birgina Saida xomush.',
@@ -195,7 +195,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'To`rtta savag`ich bilan tap-tap urib, par singari titipdi. Ushbu gapdagi taqlid so`zning turi va uning sintaktik vazifasini belgilang.',
+        q:'25. To`rtta savag`ich bilan tap-tap urib, par singari titipdi. Ushbu gapdagi taqlid so`zning turi va uning sintaktik vazifasini belgilang.',
         options: [
             'Tovushga taqlid, hol', 
             'Tovushga taqlid, aniqlovchi',
@@ -204,7 +204,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'To`g`ri so`zi kirish so`z vazifasini bajargan qatorni aniqlang.',
+        q:'26. To`g`ri so`zi kirish so`z vazifasini bajargan qatorni aniqlang.',
         options: [
             'To`g`ri so`z toshni kesar', 
             'To`g`ri, men yanglishibman',
@@ -213,7 +213,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Qaysi qatorda vazifadosh modal so`zlar berilgan?',
+        q:'27. Qaysi qatorda vazifadosh modal so`zlar berilgan?',
         options: [
             'Chamasi, darhaqiqat, avvalo', 
             'Attang, albatta, balki',
@@ -222,7 +222,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Sifat darajalari nechta?',
+        q:'28. Sifat darajalari nechta?',
         options: [
             '4', 
             '3',
@@ -231,7 +231,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'“oq” sozining kuchaytirma sifatda ifodalanishi…?',
+        q:'29. “oq” sozining kuchaytirma sifatda ifodalanishi…?',
         options: [
             'Oqish', 
             'Oqroq',
@@ -240,7 +240,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Qizil, sariq, ko’k qaysi sifatni bildiradi?',
+        q:'30. Qizil, sariq, ko’k qaysi sifatni bildiradi?',
         options: [
             'Hajm-o‘lchov', 
             'Maza-tam',
@@ -249,7 +249,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'To‘g‘ri ko‘chirilgan so‘zni toping?',
+        q:'31. To‘g‘ri ko‘chirilgan so‘zni toping?',
         options: [
             'si-fatli', 
             'sifa-tli',
@@ -258,7 +258,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Quyidagi  gapni  rus tiliga  tarjima qiling: Biz o‘zbek tilini o‘rganamiz.',
+        q:'32. Quyidagi  gapni  rus tiliga  tarjima qiling: Biz o‘zbek tilini o‘rganamiz.',
         options: [
             'Mы учим узбекский язык', 
             'Mы будем учить узбекский язык',
@@ -268,7 +268,7 @@ const quiz = [
     },
     // 33
     {
-        q:'Keling sòzining 3- shaxs kòplikdagi shakli……',
+        q:'33. Keling sòzining 3- shaxs kòplikdagi shakli……',
         options: [
             'Kelsinlar', 
             'Kelarsiz',
@@ -277,7 +277,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Voqea sòzini tòģri tarjimasini toping?',
+        q:'34. Voqea sòzini tòģri tarjimasini toping?',
         options: [
             'Cобытие', 
             'Рассказ',
@@ -286,7 +286,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Chiroyli sòzining antonimini toping?',
+        q:'35. Chiroyli sòzining antonimini toping?',
         options: [
             'Yomon', 
             'Qo’pol',
@@ -295,7 +295,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Gumon olmoshi ifodalangan gapni aniqlang.',
+        q:'36. Gumon olmoshi ifodalangan gapni aniqlang.',
         options: [
             'Bugun biz Samarqandga boramiz.', 
             'Hamma xursand-birgina Saida xomush.',
@@ -304,7 +304,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Десять рабочих sòzini tòģri tarjimasini toping',
+        q:'37. Десять рабочих sòzini tòģri tarjimasini toping',
         options: [
             'On ishchilar', 
             'O’n ishchi',
@@ -313,7 +313,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Mohir sòzining ma’nosini toping?',
+        q:'38. Mohir sòzining ma’nosini toping?',
         options: [
             'Qashshoq', 
             'Rassom',
@@ -322,7 +322,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Poytaxt sòzining tarjimasi…?',
+        q:'39. Poytaxt sòzining tarjimasi…?',
         options: [
             'Cтолица', 
             'Cтрана',
@@ -331,7 +331,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'O‘zbek tilida qo‘sh undoshlar to’g’ri yozilgan qatorni toping?',
+        q:'40. O‘zbek tilida qo‘sh undoshlar to’g’ri yozilgan qatorni toping?',
         options: [
             'metal,laureat,alkaloid', 
             'kross,poezd,congress',
@@ -340,7 +340,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Maqolni davom ettiring: suvni ko’rmay etik …',
+        q:'41. Maqolni davom ettiring: suvni ko’rmay etik …',
         options: [
             'ichma', 
             'yechma',
@@ -349,7 +349,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'O’zbek adabiy tilning asoschisi kim?',
+        q:'42. O’zbek adabiy tilning asoschisi kim?',
         options: [
             'Alisher Navoiy', 
             'Mirzo Ulugbek',
@@ -358,7 +358,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'O’zbek tiliga qachon kirill alifbosi kirib kelgan?',
+        q:'43. O’zbek tiliga qachon kirill alifbosi kirib kelgan?',
         options: [
             '1970', 
             '1920',
@@ -367,7 +367,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Muhim tarixiy sana va bayramlarning nomlari to’g’ri  yozilgan qatorni toping?',
+        q:'44. Muhim tarixiy sana va bayramlarning nomlari to’g’ri  yozilgan qatorni toping?',
         options: [
             'Hayit bayrami,navro’z bayrami, ”Jasorat” Yodgorligi', 
             'Ramazon Hayiti,Mustaqillik Kuni,”Jasorat” Yodgorligiм',
@@ -376,7 +376,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Ot qanday savollarga javob beradi?',
+        q:'45. Ot qanday savollarga javob beradi?',
         options: [
             'kim?nima?qayer?', 
             'nima? qachon?',
@@ -385,7 +385,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Atoqli ot keltirilgan qatorni toping ?',
+        q:'46. Atoqli ot keltirilgan qatorni toping ?',
         options: [
             'orol', 
             'Boeing-737',
@@ -394,7 +394,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Qaysi qatorda ilmiy-ommabop uslubda yozilgan gap keltirilgan ?',
+        q:'47. Qaysi qatorda ilmiy-ommabop uslubda yozilgan gap keltirilgan ?',
         options: [
             'Ertadan bizga o’qish boshlanadi', 
             '"Oyijon ovqatingiz mazali chiqibdi ," -  dedi kichkina qizaloq',
@@ -403,7 +403,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Chiziqcha bilan yozish qoidalari qaysi qatorda to’g’ri berilgan?',
+        q:'48. Chiziqcha bilan yozish qoidalari qaysi qatorda to’g’ri berilgan?',
         options: [
             'du-kir dukir , asta -sekin , keldiyu- ketdi ', 
             'el-yurt, mehr-shafqat, qovun-tarvuz',
@@ -412,7 +412,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'To’g’ri javobni tanlang?',
+        q:'49. To’g’ri javobni tanlang?',
         options: [
             'U har doim shu do’kondan narsalarni sotib oladi', 
             'U har doim shu do’kondan narsalarni sotiboladi',
@@ -422,7 +422,7 @@ const quiz = [
     },
     // 50
     {
-        q:'Qo’shma fe’l tog’ri yozilgan qatorni toping?',
+        q:'50. Qo’shma fe’l tog’ri yozilgan qatorni toping?',
         options: [
             'Borib keldi', 
             'Sotiboldi',
@@ -432,7 +432,7 @@ const quiz = [
     },
     // 51
     {
-        q:'To’g’ri ko’chirilgan so’zlarni toping?',
+        q:'51. To’g’ri ko’chirilgan so’zlarni toping?',
         options: [
             'Pesh-ona,sin-gil', 
             'De- ngiz,mono-grafiya',
@@ -441,7 +441,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Qiyosiy daraja shakli qaysi qoshimcha yordamida yasaladi?',
+        q:'52. Qiyosiy daraja shakli qaysi qoshimcha yordamida yasaladi?',
         options: [
             '-dan', 
             '-ning',
@@ -450,7 +450,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Belgining mo‘ljaldan ortiqligini, kuchliligini bildirgan sifatlar qanday darajadagi sifatlar hisoblanadi?',
+        q:'53. Belgining mo‘ljaldan ortiqligini, kuchliligini bildirgan sifatlar qanday darajadagi sifatlar hisoblanadi?',
         options: [
             'Orttirma', 
             'Qiyosiy',
@@ -459,7 +459,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Xususiyatni bildiruvchi sifatlarni toping?',
+        q:'54. Xususiyatni bildiruvchi sifatlarni toping?',
         options: [
             'Sariq,yashil', 
             'Mehribon,sodda',
@@ -468,7 +468,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Shakl korinishni bildiruvchi sifatlarni toping?',
+        q:'55. Shakl korinishni bildiruvchi sifatlarni toping?',
         options: [
             'Tor, issiq', 
             'Shirin, nordon',
@@ -477,7 +477,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Hajm-o’lchovni bildiruvchi sifatlarni toping?',
+        q:'56. Hajm-o’lchovni bildiruvchi sifatlarni toping?',
         options: [
             'Keng, tor', 
             'Achchiq, bemaza',
@@ -486,7 +486,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Tijorat maqsadlarini ko’zlovchi korxona, kompaniya va boshqa xo’jalik tashkiloti…?',
+        q:'57. Tijorat maqsadlarini ko’zlovchi korxona, kompaniya va boshqa xo’jalik tashkiloti…?',
         options: [
             'Oligopoliya', 
             'Firma',
@@ -495,7 +495,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Ko’plik qo’shimchalarini aniqlang?',
+        q:'58. Ko’plik qo’shimchalarini aniqlang?',
         options: [
             '-imiz,-ingiz,-lari', 
             '-im,-imiz,-ing',
@@ -504,7 +504,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Quyidagi so’zni rus tiliga tarjima qiling: Hе видя',
+        q:'59. Quyidagi so’zni rus tiliga tarjima qiling: Hе видя',
         options: [
             'O’qimay', 
             'Bilmay',
@@ -513,7 +513,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Chetdan  o’zlashgan so’zlarda ikki undosh kelsa,ular keyingi satrga qay  tartibda ko’chiriladi?',
+        q:'60. Chetdan  o’zlashgan so’zlarda ikki undosh kelsa,ular keyingi satrga qay  tartibda ko’chiriladi?',
         options: [
             'birgalikda ko’chiriladi', 
             'alohida ko’chiriladi',
@@ -522,7 +522,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Quyidagi so’zni rus tiliga tarjima qiling: Ehtiyot bo’l.',
+        q:'61. Quyidagi so’zni rus tiliga tarjima qiling: Ehtiyot bo’l.',
         options: [
             'Извинения', 
             'Прошу извинения',
@@ -531,7 +531,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'“Xamsa” asari ketma-ketlikda to‘g’ri berilgan qatorni toping.',
+        q:'62. “Xamsa” asari ketma-ketlikda to‘g’ri berilgan qatorni toping.',
         options: [
             '“Hayrat ul-abror”, “Farhod va Shirin”, “Sabai’ sayyor” “Layli va Majnun”,  va “Saddi Iskandariy”', 
             '“Hayrat ul-abror “Layli va Majnun”, “Farhod va Shirin”,  “Sabai’ sayyor” va “Saddi Iskandariy”',
@@ -540,7 +540,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Shart mayli qoshimcasi qaysi?',
+        q:'63. Shart mayli qoshimcasi qaysi?',
         options: [
             ' -la', 
             ' -sa',
@@ -549,7 +549,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Turdosh otlarini toping?',
+        q:'64. Turdosh otlarini toping?',
         options: [
             'Marsel, shayton, daryo', 
             'Xalq,Yangiyo’l, uy',
@@ -558,7 +558,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Qaysi tillar o’zbek tili shakilanishiga asos bo’lgan?',
+        q:'65. Qaysi tillar o’zbek tili shakilanishiga asos bo’lgan?',
         options: [
             'xun, turk', 
             'arab, tojik',
@@ -567,7 +567,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Kundoshi bilan tugagan so‘zlarga  qo’shimcha qo’shilganda  to’g’ri yozilgan qatorni belgilang?',
+        q:'66. Kundoshi bilan tugagan so‘zlarga  qo’shimcha qo’shilganda  to’g’ri yozilgan qatorni belgilang?',
         options: [
             'Tokka, yo‘lakkacha', 
             'Kichikgina, bukkan',
@@ -576,7 +576,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Bosh harflar imlosiga ko’ra  to’g’ri yozilgan javobni toping?',
+        q:'67. Bosh harflar imlosiga ko’ra  to’g’ri yozilgan javobni toping?',
         options: [
             'Birlashgan arab amirligi', 
             'O’rta osiyo,Yangiyo’l',
@@ -585,7 +585,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Quyidagi hikmat muallifini toping: Onalar oyog‘i ostidadur Ravzayi jannatu jinon bog‘i. Ravza bog‘i visolin istar esang, Bo‘l onaning oyog‘in tuprog‘i. ',
+        q:'68. Quyidagi hikmat muallifini toping: Onalar oyog‘i ostidadur Ravzayi jannatu jinon bog‘i. Ravza bog‘i visolin istar esang, Bo‘l onaning oyog‘in tuprog‘i. ',
         options: [
             'Ibn Sino', 
             'A.Farg’oniy',
@@ -594,7 +594,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Imlo qoidalari asosida yozilgan qo’shma so’zlarni belgilang?',
+        q:'69. Imlo qoidalari asosida yozilgan qo’shma so’zlarni belgilang?',
         options: [
             'Xush  xabar, hamsuhbat, kam quvvat', 
             'Tabriknoma, taklifnoma, bedapoya  orombaxsh',
@@ -603,7 +603,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Joy nomlari  to’g’ri yozilgan qator qaysi?',
+        q:'70. Joy nomlari  to’g’ri yozilgan qator qaysi?',
         options: [
             'Amu-daryo,xalq obod', 
             'Sirdaryo, Koson-soy',
@@ -612,7 +612,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Chiziqcha bilan yozilgan imlo qoidalariga  mos qatorni belgilang?',
+        q:'71. Chiziqcha bilan yozilgan imlo qoidalariga  mos qatorni belgilang?',
         options: [
             'Baland-baland, chopa-chopa, unter-ofitser,', 
             'Hamma-hammasi, dardi- bedavo kilovatt-soat',
@@ -620,7 +620,7 @@ const quiz = [
             'Uy-uyiga, tarjimayi- hol'],
         answer:2
     },{
-        q:'Bosh harflar imlosi asosida to’g’ri yozilgan  mansab nomini ko’rsating?',
+        q:'72. Bosh harflar imlosi asosida to’g’ri yozilgan  mansab nomini ko’rsating?',
         options: [
             'O‘zbekistonda Xizmat Ko‘rsatgan Fan Arbobi', 
             'O‘zbekiston Respublikasi Oliy Ta’lim Vaziri',
@@ -629,7 +629,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Qaysi qatordagi barcha so’zlarda nuqtalar o’rniga a unlisi yoziladi?',
+        q:'73. Qaysi qatordagi barcha so’zlarda nuqtalar o’rniga a unlisi yoziladi?',
         options: [
             'mu…mmo,  ev…ra, radi…tor', 
             'jangov...r, zalv...rli, tanov...r',
@@ -638,7 +638,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Qo’sh unlilar to’g’ri yozilgan qatorni belgilang?',
+        q:'74. Qo’sh unlilar to’g’ri yozilgan qatorni belgilang?',
         options: [
             'oarta, shuora', 
             'riyoa manfaot,',
@@ -647,7 +647,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Mustaqil so’z turkumlari to’g’ri ko’rsatib o’tilgan qatorni toping?',
+        q:'75. Mustaqil so’z turkumlari to’g’ri ko’rsatib o’tilgan qatorni toping?',
         options: [
             'Ot, sifat, son,  fe’l, modal va ravish', 
             'Ot, sifat, son, olmosh, fe’l va ravish',
@@ -656,7 +656,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Sifatning qaysi darajasi predmetdagi bir belgining boshqa predmetga belgidan ortiq ekanligini ifodalaydi?',
+        q:'76. Sifatning qaysi darajasi predmetdagi bir belgining boshqa predmetga belgidan ortiq ekanligini ifodalaydi?',
         options: [
             'Qiyosiy', 
             'Orttirma',
@@ -665,7 +665,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Roman, qissa, hikoya  kabi janrlar qaysi uslub asosida  yuzaga keladi?',
+        q:'77. Roman, qissa, hikoya  kabi janrlar qaysi uslub asosida  yuzaga keladi?',
         options: [
             'Ilmiy  uslub', 
             'Badiiy  uslub',
@@ -674,7 +674,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Achchiq, nordon, shirin; Ushbu keltirilgan so’zlar sifatning qaysi turiga mansub?',
+        q:'78. Achchiq, nordon, shirin; Ushbu keltirilgan so’zlar sifatning qaysi turiga mansub?',
         options: [
             'Hajm-o‘lchov, masofa bildiruvchi', 
             'Rang-tus bildiruvchi',
@@ -683,7 +683,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Tashviqot-targ’ibot ishlarini olib borishda qo’llanadigan uslub qanday uslub deb ataladi?',
+        q:'79. Tashviqot-targ’ibot ishlarini olib borishda qo’llanadigan uslub qanday uslub deb ataladi?',
         options: [
             'Ommabop uslub', 
             'Badiiy uslub',
@@ -692,7 +692,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Ega qanday so’roqlarga javob bo’lad?',
+        q:'80. Ega qanday so’roqlarga javob bo’lad?',
         options: [
             'Nechta? qancha? nechanchi?', 
             'Qachon? kim?',
@@ -701,7 +701,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Otlar  ma’no jihatdan qanday turga bo’linadi?',
+        q:'81. Otlar  ma’no jihatdan qanday turga bo’linadi?',
         options: [
             'Atoqli va turdosh otlarga bo‘linadi.', 
             'Ko’plik va turdosh otlarga bo‘linadi.',
@@ -710,7 +710,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Qanday shabada esyapti? Savolga javobni toping?',
+        q:'82. Qanday shabada esyapti? Savolga javobni toping?',
         options: [
             'Chaqqon', 
             'Quvnoq',
@@ -719,7 +719,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Tutuq belgisi to’g’ri qo’yilgan qatorni toping?',
+        q:'83. Tutuq belgisi to’g’ri qo’yilgan qatorni toping?',
         options: [
             'm’emor, ne’mat, she’r, fe’l; Nu’mon, shul’a', 
             'el’on, e’tibor, baz’an',
@@ -728,7 +728,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'To’g’ri javobni tanlang?',
+        q:'84. To’g’ri javobni tanlang?',
         options: [
             'bitta ko‘ylak besh yuz ming so‘m turadi', 
             'bitta-ko‘ylak besh yuz ming so‘m turadi',
@@ -737,7 +737,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Найдите изъявительное наклонение?',
+        q:'85. Найдите изъявительное наклонение?',
         options: [
             'shart mayli', 
             'buyruq may',
@@ -746,7 +746,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Oxirgi bo‘g‘inida i qatnashadigan so‘zni toping.',
+        q:'86. Oxirgi bo‘g‘inida i qatnashadigan so‘zni toping.',
         options: [
             'botir', 
             'radiatir',
@@ -755,7 +755,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Ma’lum hududdagina ishlatilib, faqat shu yerda yashovchi kishilarga tushunarli bo‘lgan so‘zlar qanday nomlanadi?',
+        q:'87. Ma’lum hududdagina ishlatilib, faqat shu yerda yashovchi kishilarga tushunarli bo‘lgan so‘zlar qanday nomlanadi?',
         options: [
             'paronimlar', 
             'shevaga xos so’zlar',
@@ -764,7 +764,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Lahja atamasi qanday tushunchani anglatadi?',
+        q:'88. Lahja atamasi qanday tushunchani anglatadi?',
         options: [
             'ma’lum shevaning kichik bir qismi', 
             'xalq tilining ma’lum bir meyorlarga keltirilgan shakli',
@@ -773,7 +773,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Xalq shevalarning qanday shakli mavjud?',
+        q:'89. Xalq shevalarning qanday shakli mavjud?',
         options: [
             'Faqat yozma shakli', 
             'Faqat og‘zaki shakli',
@@ -782,7 +782,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Sirg‘aluvchi J tovushini ifoda etuvchi so‘zlar qatorini aniqlang?',
+        q:'90. Sirg‘aluvchi J tovushini ifoda etuvchi so‘zlar qatorini aniqlang?',
         options: [
             'jimjit, g‘ijjak', 
             'jo‘yak, garaj',
@@ -791,7 +791,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'O’zbek adabiy tilning boyishida shevalar qanday manba hisoblanadi?',
+        q:'91. O’zbek adabiy tilning boyishida shevalar qanday manba hisoblanadi?',
         options: [
             'shevalar adabiy til uchun manba bo’la olmaydi.', 
             'tashqi manba',
@@ -800,7 +800,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'O’zbek tili qaysi til oilasiga mansub?',
+        q:'92. O’zbek tili qaysi til oilasiga mansub?',
         options: [
             'Roman', 
             'Oltoy',
@@ -809,7 +809,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Ng bir tovushni bildirmaydigan so’zni toping.',
+        q:'93. Ng bir tovushni bildirmaydigan so’zni toping.',
         options: [
             'dengiz', 
             'bordingiz',
@@ -818,7 +818,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Sondan keyin kelgan otlar qaysi qo’shimchani olmaydi?',
+        q:'94. Sondan keyin kelgan otlar qaysi qo’shimchani olmaydi?',
         options: [
             ' -lar', 
             ' -oq',
@@ -827,7 +827,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Nutq nima?',
+        q:'95. Nutq nima?',
         options: [
             'bilim darajasini korsatuvchi mavqei', 
             'notiqlik sanati',
@@ -836,7 +836,7 @@ const quiz = [
         answer:3
     },
     {
-        q:'Murakkab son qaysi qatorda tog’ri yozilgan?',
+        q:'96. Murakkab son qaysi qatorda tog’ri yozilgan?',
         options: [
             'seminar o’n birga qadar davom etdi', 
             'yigirma-uch yoshinda uylandim',
@@ -845,7 +845,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'To’g’ri javobni tanlang?',
+        q:'97. To’g’ri javobni tanlang?',
         options: [
             'bu to’q-qizil olma', 
             'bu to’q qizil olma',
@@ -854,7 +854,7 @@ const quiz = [
         answer:1
     },
     {
-        q:'Bo’g’in to’g’ri ko’chirilgan qatorni belgilang?',
+        q:'98. Bo’g’in to’g’ri ko’chirilgan qatorni belgilang?',
         options: [
             'va’- da,mash’-al', 
             'sin-gil,ma-‘rifat',
@@ -863,7 +863,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'Alisher Navoiy qachon tug‘ilgan?',
+        q:'99. Alisher Navoiy qachon tug‘ilgan?',
         options: [
             '1441-yil 7-fevral', 
             '1405-yil 8-aprel',
@@ -872,7 +872,7 @@ const quiz = [
         answer:0
     },
     {
-        q:'Bo‘lajak shoirning she’riyatdagi birinchi ustozlari kimlar edi?',
+        q:'100. Bo‘lajak shoirning she’riyatdagi birinchi ustozlari kimlar edi?',
         options: [
             'Xusayn Boyqaro', 
             'Amakilari',
